@@ -1,10 +1,10 @@
 # Build directory
 target/
 
-# Cargo lock file for libraries
-# (This should only be ignored if you're creating a library, not a binary application)
-# Uncomment the next line if it's a library.
-Cargo.lock
+# When you build your project in the future, Cargo will see that the Cargo.lock file exists
+# and will use the versions specified there rather than doing all the work of figuring out versions again.
+# This lets you have a reproducible build automatically.
+# Cargo.lock
 
 # Temporary files created by editors and tools
 **/*.rs.bk
